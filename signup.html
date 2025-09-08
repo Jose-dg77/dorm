@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<header>
+    <h1>Ticket Dorm</h1>
+  </header>
+<body>
+
+  
+
+
+  <div class="container">
+    <form class="signup-form">
+      <h2>Sign Up</h2>
+
+      <div class="input-group">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" required>
+      </div>
+
+      <div class="input-group">
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" required>
+      </div>
+
+      <div class="input-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter Password">
+        <div class="password-strength">
+          <div class="strength-bar-container">
+            <div class="bar weak"></div>
+            <div class="bar fair"></div>
+            <div class="bar good"></div>
+            <div class="bar strong"></div>
+          </div>
+          <p>Use 8 or more characters with a mix of letters, numbers & symbols</p>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">Remember me</label>
+      </div>
+
+      <button type="submit">Sign Up</button>
+
+      <p class="signin-link">
+        Already have an account? <a href="#">Sign in</a>
+      </p>
+    </form>
+  </div>
+</body>
+</html>
